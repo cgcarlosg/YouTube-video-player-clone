@@ -7,55 +7,75 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav class="navigation-bar">
+    
+        <nav class="flex-container" id="navigation-bar">
             <div class="menu-bar">
-                <ion-icon name="menu-outline"></ion-icon>
+                <div><ion-icon name="menu-outline" id="menulines"></ion-icon>
+                </div>
+                <div><img src="images/Youtube-Logo.png" alt="youtube logo" id="youtubelogo">
+                </div>
             </div>
-            <div class="logo">
-                <img src="images/Youtube-Logo.png" alt="youtube logo">
-            </div>
-            <div>
+            <div class="searchbox">
+                <div class="form">
                 <form>
-                    <input type="text" placeholder="Search">
+                    <input type="text" placeholder="Search" id="input">
                 </form>
-                <button>
+                </div>
+                <div class="buttonsearch">
+                <button  id="iconbutton">
                     <ion-icon name="search-outline"></ion-icon>
                 </button>
+                </div>
             </div>
-            <div>
-                <ion-icon name="cloud-upload-outline"></ion-icon>
-            </div>
-            <div>
-                <ion-icon name="videocam-outline"></ion-icon>
-                <ion-icon name="apps-outline"></ion-icon>
-                <ion-icon name="ellipsis-vertical-outline"></ion-icon>
-            </div>
-            <div>
+            <div class="icons">
+                <div>
+                <ul class="icon-list">
+                <li><ion-icon name="cloud-upload-outline" id="cloud"></ion-icon></li>
+                <li><ion-icon name="videocam-outline" id="cam"></ion-icon></li>
+                <li><ion-icon name="apps-outline" id="apps"></ion-icon></li>
+                <li><ion-icon name="ellipsis-vertical-outline" id="duts"></ion-icon></li> 
+                </ul>
+                </div>
+                <div class="sign">
                 <button type="submit">Sign in</button>
+                </div>
             </div>
         </nav>
-    </header>
-    <main>
+        <div class="space"></div>
+    <section class="main">
         <section class="video">
             <div class="video-player">
-                <iframe width="768" height="480" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="768" height="480" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="chanel"></iframe>
             </div>
             <div class="video-title">
-                <p>Contributing to Open Source Part I: The Easy Way</p>
-                <div class="video-channel">
-                    <img src="images/avatar-con.png" alt="video-channel-avatar">
+                <div class="title">
+                <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                </div>
+
+                <div class="video-channel"> 
+                    <div class="avatar">
+                        <img src="images/avatar-con.png" alt="video-channel-avatar">
+                    </div>
+                    <div class="author">
                     <h3>The Odin Project</h3>
                     <button>
-                        <img src="images/subscribe-icon.png" alt="subscribe icon">
+                        <img src="images/subscribe-icon.png" alt="subscribe icon" id="suscription">
                     </button>
+                    </div>
+
                     <p>50,016 views</p>
                     <hr>
-                    <button>Add to</button>
-                    <button>Share</button>
-                    <button>...More</button>
-                    <ion-icon name="thumbs-up-outline"></ion-icon>
-                    <ion-icon name="thumbs-down-outline"></ion-icon>
+                    <div class="buttondescription">
+                        <div class="sharebuttons">
+                        <button>Add to</button>
+                        <button>Share</button>
+                        <button>...More</button>
+                        </div>
+                        <div class="likebuttons">
+                        <ion-icon name="thumbs-up-outline"></ion-icon>
+                        <ion-icon name="thumbs-down-outline"></ion-icon>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="video-description">
@@ -66,13 +86,17 @@
             </div>
         </section>
         <section class="recommended-videos">
-            <div>
+            <div class="container1">
+                <div class="video1">
                 <img src="images/video-img-1.jpg" alt="list video 1">
+                </div>
+                <div class="description1">
                 <p>Contributing to Open Source Part II: The Real Way</p>
                 <p>The Odin Project</p>
                 <p>29,985 views</p>
-                <hr>
+                </div>
             </div>
+            <hr>
             <div>
                 <img src="images/video-img-2.jpg" alt="list video 2">
                 <p>How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft by</p>
@@ -111,6 +135,6 @@
                 <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
             </div>
         </section>
-    </main>
+    </section>
 </body>
 </html>
