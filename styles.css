@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+     
 }
 html{
     background: whitesmoke;
@@ -127,10 +127,15 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
 .sharebuttons{
-    width: 80%;
-    float: left;
+    width: 40%;
+}
+.sharebuttons ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
 }
 .likebuttons{
     width: 20%;
@@ -148,6 +153,7 @@ body{
     display: flex;
     text-align: center;
     justify-content: space-between;
+    background: white;
 }
 .upnext{
     width: 60%;
