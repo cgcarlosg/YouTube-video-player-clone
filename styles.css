@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 html{
     background: whitesmoke;
 }
 body{
-    margin: 20px;
+    margin: 100px;
     border: 2px solid #e0e0e0;
 }
 .flex-container{
@@ -20,6 +21,7 @@ body{
     display: flex;
     font-size: 35px;
     align-items: center;
+    cursor: pointer;
 }
 #menulines{
     margin-left: 20px;
@@ -50,6 +52,7 @@ body{
 
 #iconbutton{
     width: 100%;
+    cursor: pointer;
 }
 .icons{
     width: 25%;
@@ -60,14 +63,18 @@ body{
     display: flex;
 }
 .icons ul li{
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px;
 }
 .space{
     width: 100%;
     height: 25px;
 }
-
+.sign button{
+    color: white;
+    background: #167AC6;
+    cursor: pointer;
+}
 .main{
     display: flex;
 }
@@ -108,6 +115,7 @@ body{
 .subscription img{
     height: 26px;
     width: 139px;
+    cursor: pointer;
 }
 #suscription{
     height: 25px;
@@ -132,10 +140,6 @@ body{
 .likebuttons p{
     margin: 0;
 }
-
-
-
-
 .recommended-videos{
     width: 35%;
     margin-left: 6px;
