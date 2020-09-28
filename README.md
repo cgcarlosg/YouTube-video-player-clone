@@ -13,7 +13,12 @@ To get a local copy up and running follow these simple example steps.
 Authors
 
 👤 Author1: carlos gutierrez
-GitHub: @cgcarlosg
+- GitHub: [@cgcarlosg](https://github.com/cgcarlosg)
+- LinkedIn: [@carlosalbeniogutierrez](www.linkedin.com/in/carlosalbeniogutierrez)
 
 👤 Author2: Galiwango Ananiya
-GitHub: @gango-anan
+- GitHub: [@gango-anan](https://github.com/gango-anan)
+- Twitter: [@gango_anan](https://twitter.com/gango_anan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/galiwango-ananiya-0800821b4/)
+
+
