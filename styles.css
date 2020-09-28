@@ -20,6 +20,7 @@ body{
     display: flex;
     font-size: 35px;
     align-items: center;
+    cursor: pointer;
 }
 .menulines{
     margin-left: 20px;
@@ -48,6 +49,10 @@ body{
 }
 .icon-list{
     list-style: none;
+}
+.icon-list a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .iconbutton{
@@ -94,9 +99,13 @@ body{
 }
 .channel-details{
     display: flex;
+    padding: 10px;
+}
+.title{
+    padding-left: 10px;
 }
 .author{
-    width: 100%;
+    width: 100%;   
 }
 .author h3{
     margin: 0;
@@ -139,6 +148,9 @@ body{
 .likebuttons p{
     margin: 0;
 }
+.video-description{
+    padding: 10px;
+}
 .recommended-videos{
     width: 35%;
     margin-left: 6px;
@@ -173,6 +185,7 @@ body{
 .containerimg {
     background-color:white;
     display: flex;
+    cursor: pointer;
 }
 .othervideos {
     width: 50%;
@@ -183,6 +196,7 @@ body{
     width: 50%;
     margin-top: 8px;
     margin-right: 8px;
+    cursor: pointer;
 }
 .otherdescriptions h4{
     margin-top: 0;
@@ -198,12 +212,22 @@ hr{
     margin-right: 5px;
 }
 .footer{
-    margin: 10px;
-  
+    margin: 10px 0;
+    background: white;
+}
+.footer-icons{
+    padding: 20px 0 0 0;
+    margin-left: 10px;
+}
+.footer .footer-icons a{
+    text-decoration: none;
 }
 .youtubelogo-footer{
     max-width: 88px;
     max-height: 25px;
+}
+.about-term{
+    margin-left: 10px;
 }
 .about-youtube{
     width: 40%;
