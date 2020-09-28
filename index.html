@@ -10,19 +10,20 @@
     
         <nav class="flex-container" id="navigation-bar">
             <div class="menu-bar">
-                <div><ion-icon name="menu-outline" id="menulines"></ion-icon>
+                <div><ion-icon name="menu-outline" class="menulines"></ion-icon>
                 </div>
-                <div><img src="images/Youtube-Logo.png" alt="youtube logo" id="youtubelogo">
+                <div>
+                    <img src="images/Youtube-Logo.png" alt="youtube logo" class="youtubelogo">
                 </div>
             </div>
             <div class="searchbox">
                 <div class="form">
                 <form>
-                    <input type="text" placeholder="Search" id="input">
+                    <input type="text" placeholder="Search" class="input">
                 </form>
                 </div>
                 <div class="buttonsearch">
-                <button  id="iconbutton">
+                <button  class="iconbutton">
                     <ion-icon name="search-outline"></ion-icon>
                 </button>
                 </div>
@@ -40,11 +41,11 @@
                 </div>
             </div>
         </nav>
-        <div class="space"></div>
+
     <section class="main">
         <section class="video">
             <div class="video-player">
-                <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="videoiframe"></iframe>
+                <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoiframe"></iframe>
             </div>
             <div class="video-title">
                 <div class="title">
@@ -96,7 +97,7 @@
                 <ul class="listitemsinfo">
                     <li> <p>Autoplay</p></li>
                     <li> <ion-icon name="information-circle-outline"></ion-icon></li>
-                    <li id="toogle"> <ion-icon name="toggle-outline"></ion-icon></li>
+                    <li class="toogle"><ion-icon name="toggle-outline"></ion-icon></li>
                 </ul>
             </div>
             <div class="containerimg">
@@ -161,5 +162,36 @@
             </div>
         </section>
     </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <img src="images/Youtube-Logo.png" alt="youtube logo" class="youtubelogo-footer">
+                <img src="images/logos-footer-1.jpg">
+                <img src="images/logos-footer-2.jpg">
+                <img src="images/logos-footer-3.jpg">
+                <img src="images/logos-footer-4.jpg">
+                <img src="images/logos-footer-5.jpg">
+            </div>
+            <hr>
+            <div class="About">
+                <ul class="about-youtube">
+                    <li> <a href="#">About</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Creators</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="Terms">
+                <ul class="about-terms">
+                    <li> <a href="#">Terms</a> </li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Policy & Safety</a></li>
+                    <li><a href="#">Test new features</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
