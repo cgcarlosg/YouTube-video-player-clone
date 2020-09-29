@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;  
+}
+html{
+    background: whitesmoke;
+}
+body{
+    margin: 100px;
+    border: 2px solid #e0e0e0;
+}
+.flex-container{
+    text-align: center;
+    display:  flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: white;
+}
+.menu-bar{ 
+    width: 20%;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    cursor: pointer;
+}
+.menulines{
+    margin-left: 20px;
+    float: right;
+    cursor: pointer;
+}
+.youtubelogo{
+    float: left;
+    max-width: 88px;
+    max-height: 25px;
+}
+.searchbox{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.form{
+    width: 90%;
+}
+.input{
+    width: 100%;
+}
+.buttonsearch{
+    width: 10%;
+    float: left;
+}
+.icon-list{
+    list-style: none;
+}
+.icon-list a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.iconbutton{
+    width: 100%;
+    cursor: pointer;
+}
+.icons{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.icons ul{
+    display: flex;
+}
+.icons ul li{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.sign button{
+    color: white;
+    background: #167AC6;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin-top:20px;
+}
+.video{
+    width: 65%;
+    margin-right: 6px;
+    background: white;
+}
+.video-player{
+    text-align: center;
+}
+.video-title{
+    width: 100%;
+    height: 105px;
+}
+.videoiframe{
+    width: 100%;
+    height: 400px;
+}
+.channel-details{
+    display: flex;
+    padding: 10px;
+}
+.title{
+    padding-left: 10px;
+}
+.author{
+    width: 100%;   
+}
+.author h3{
+    margin: 0;
+}
+.author p{
+  float: right;
+  font-size: 30px;
+  margin: 0;
+}
+.subscription{
+    border: 0;
+    padding: 0;
+}
+.subscription img{
+    height: 26px;
+    width: 139px;
+    cursor: pointer;
+}
+
+.buttondescription{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sharebuttons{
+    width: 40%;
+}
+.sharebuttons ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.likebuttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.likebuttons p{
+    margin: 0;
+}
+.video-description{
+    padding: 10px;
+}
+.recommended-videos{
+    width: 35%;
+    margin-left: 6px;
+}
+.initinfo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background: white;
+}
+.upnext{
+    width: 60%;
+    text-align: left;
+    margin-left: 8px;
+}
+.listitemsinfo {
+    width: 40%;
+    list-style:none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+.toogle{
+ font-size: 25px;
+}
+
+.initinfo p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.containerimg {
+    background-color:white;
+    display: flex;
+    cursor: pointer;
+}
+.othervideos {
+    width: 50%;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.otherdescriptions{
+    width: 50%;
+    margin-top: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.otherdescriptions h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.otherdescriptions p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: small;
+}
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer{
+    margin: 10px 0;
+    background: white;
+}
+.footer-icons{
+    padding: 20px 0 0 0;
+    margin-left: 10px;
+}
+.footer .footer-icons a{
+    text-decoration: none;
+}
+.youtubelogo-footer{
+    max-width: 88px;
+    max-height: 25px;
+}
+.about-term{
+    margin-left: 10px;
+}
+.about-youtube{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px;
+    justify-content: space-between;
+
+}
+.about-youtube a {
+text-decoration: none;
+color: black;
+}
+.about-terms{
+    width: 30%;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    padding: 0px;
+    justify-content: space-between;
+    color: black;
+}
+.about-terms a {
+text-decoration: none;
+color: black;
+}
