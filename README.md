@@ -9,6 +9,13 @@ Built With
 HTML and CSS
 https://cgcarlosg.github.io/YouTube-video-player-clone/
 
+Getting Started
+To run this project please download wamp or xamp for you platform and install it.
+After the installation navigate to the www folder and paste the project files directly in it.
+To launch the project, open your browser and type in localhost/index.html
+Thank you.
+
+
 Authors
 
 👤 Author1: carlos gutierrez
